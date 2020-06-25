@@ -8,6 +8,23 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.35034272658035037,
+            "y": 0.37026239067055394,
+            "uniqueID": 749289,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 50
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 0.75
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9847677075399847,
@@ -16,5 +33,7 @@
         }
     ],
     "allConnectors": [],
-    "fileTypeVersion": 1
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": 2
 }
