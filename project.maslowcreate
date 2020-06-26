@@ -66,8 +66,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.325971058644326,
-            "y": 0.7755102040816326,
+            "x": 0.31683168316831684,
+            "y": 0.7638483965014577,
             "uniqueID": 606884,
             "ioValues": [
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 47
+                    "ioValue": 48
                 }
             ]
         },
@@ -88,7 +88,7 @@
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.7486671744097486,
-            "y": 0.5131195335276968,
+            "y": 0.5014577259475219,
             "uniqueID": 889742,
             "ioValues": [
                 {
@@ -104,8 +104,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.4965727341964966,
-            "y": 0.7784256559766763,
+            "x": 0.49276466108149275,
+            "y": 0.7725947521865889,
             "uniqueID": 723230,
             "ioValues": [
                 {
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -9.9
+                    "ioValue": -10
                 },
                 {
                     "name": "zDist",
