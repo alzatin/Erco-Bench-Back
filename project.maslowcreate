@@ -10,8 +10,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.35034272658035037,
-            "y": 0.37026239067055394,
+            "x": 0.08910891089108912,
+            "y": 0.27113702623906705,
             "uniqueID": 749289,
             "ioValues": [
                 {
@@ -25,6 +25,83 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2261995430312262,
+            "y": 0.2944606413994169,
+            "uniqueID": 192011,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 4
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Extrude Arc",
+            "x": 0.16755521706016757,
+            "y": 0.5218658892128281,
+            "uniqueID": 466828,
+            "projectID": "275018479",
+            "ioValues": [
+                {
+                    "name": "thickness",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "Piece Width",
+                    "ioValue": 4
+                },
+                {
+                    "name": "width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Arc",
+                    "ioValue": 30
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.3518659558263519,
+            "y": 0.6122448979591837,
+            "uniqueID": 723230,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.718964204112719,
+            "y": 0.4693877551020408,
+            "uniqueID": 889742,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9847677075399847,
@@ -32,7 +109,36 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 749289,
+            "ap2ID": 192011
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 192011,
+            "ap2ID": 889742
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 466828,
+            "ap2ID": 723230
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 723230,
+            "ap2ID": 889742
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
