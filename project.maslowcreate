@@ -40,14 +40,14 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Extrude Arc",
-            "x": 0.16755521706016757,
-            "y": 0.5218658892128281,
+            "x": 0.17897943640517897,
+            "y": 0.5335276967930029,
             "uniqueID": 466828,
             "projectID": "275018479",
             "ioValues": [
                 {
                     "name": "thickness",
-                    "ioValue": 0.5
+                    "ioValue": 0.47
                 },
                 {
                     "name": "Piece Width",
@@ -66,8 +66,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.33206397562833206,
-            "y": 0.7725947521865889,
+            "x": 0.32977913175932977,
+            "y": 0.7755102040816326,
             "uniqueID": 606884,
             "ioValues": [
                 {
@@ -87,8 +87,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.725057121096725,
-            "y": 0.47813411078717205,
+            "x": 0.7547600913937547,
+            "y": 0.5102040816326531,
             "uniqueID": 889742,
             "ioValues": [
                 {
@@ -104,17 +104,17 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.5003808073115004,
-            "y": 0.7551020408163265,
+            "x": 0.4821020563594821,
+            "y": 0.7900874635568513,
             "uniqueID": 723230,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 5
+                    "ioValue": 22
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": -9.7
                 },
                 {
                     "name": "zDist",
